@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Proyek - Website Desa Tanete</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #0f172a; color: #cbd5e1; }
+        .skill-tag { background-color: #1e293b; color: #67e8f9; padding: 6px 12px; border-radius: 9999px; font-size: 0.875rem; font-weight: 600; }
+    </style>
+</head>
+<body class="antialiased">
+    <main class="container mx-auto px-6 py-12">
+        <!-- Header Proyek -->
+        <section class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-fuchsia-500 text-transparent bg-clip-text">Website Profil Desa Tanete</h1>
+            <p class="max-w-3xl mx-auto text-slate-400">Sebuah platform digital untuk memperkenalkan potensi dan informasi Desa Tanete kepada dunia.</p>
+        </section>
+
+        <!-- Gambar Utama Proyek -->
+        <img src="https://placehold.co/1200x600/6366f1/0f172a?text=Website+Desa+Tanete" alt="Tampilan Website Desa Tanete" class="w-full rounded-lg shadow-lg shadow-cyan-500/10 mb-12">
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Kolom Kiri: Deskripsi & Peran -->
+            <div class="md:col-span-2 space-y-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-100 mb-4">Deskripsi Proyek</h2>
+                    <p class="text-slate-400 leading-relaxed">
+                        Proyek ini bertujuan untuk membangun sebuah website statis yang informatif sebagai profil resmi Desa Tanete. Website ini menyajikan informasi penting seperti sejarah desa, struktur pemerintahan, potensi wisata, produk unggulan, dan berita terkini. Tujuannya adalah untuk meningkatkan visibilitas desa, menarik wisatawan, serta menjadi sumber informasi terpusat bagi warga dan pihak luar.
+                    </p>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-100 mb-4">Peran & Tanggung Jawab</h2>
+                    <ul class="list-disc list-inside text-slate-400 space-y-2">
+                        <li>Merancang struktur dan tata letak (layout) website dari awal.</li>
+                        <li>Menulis kode HTML untuk membangun kerangka konten dan struktur halaman.</li>
+                        <li>Mengimplementasikan desain visual menggunakan CSS untuk memastikan tampilan yang menarik dan responsif.</li>
+                        <li>Mengumpulkan dan menyusun konten (teks dan gambar) yang relevan dengan profil desa.</li>
+                        <li>Melakukan pengujian untuk memastikan website tampil dengan baik di berbagai perangkat (desktop dan mobile).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Kolom Kanan: Keterampilan & Tautan -->
+            <div class="space-y-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-100 mb-4">Keterampilan Digunakan</h2>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Desain Responsif</span>
+                        <span class="skill-tag">Manajemen Konten</span>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-100 mb-4">Tautan Proyek</h2>
+                    <a href="#" class="bg-cyan-500 text-slate-900 font-bold py-3 px-6 rounded-lg hover:bg-cyan-400 transition-all duration-300 inline-flex items-center gap-2">
+                        <i class="fas fa-globe"></i> Lihat Website
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tombol Kembali -->
+        <div class="text-center mt-16">
+            <a href="portfolio.html" class="bg-slate-800 text-slate-300 font-bold py-3 px-8 rounded-full border border-slate-600 hover:bg-slate-700 hover:border-cyan-400 transition-all duration-300">
+                <i class="fas fa-arrow-left mr-2"></i> Kembali ke Portofolio
+            </a>
+        </div>
+    </main>
+</body>
+</html>
